@@ -9,7 +9,7 @@
 
 college = input("What college do you attend: ")
 
-if college.lower == "simpson":
+if college.lower() == "simpson":
     print("Congratulations on attending Simpson College!")
 elif college.lower() == "central":
     print("We do not condone your choice to attend Central College.")
@@ -17,3 +17,5 @@ elif college.lower() == "drake" or college.lower() == "coe":
     print("Congratulations on attending a fine institution!")
 else:
     print("Thank you for your response.")
+
+print(college)

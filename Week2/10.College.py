@@ -8,6 +8,14 @@
 #'message if it's any other college.
 
 college = input("What college do you attend: ")
+if college == "Simpson":
+    print("YEAH!!!!")
+elif college == "Central":
+    print("Ok")
+elif college == "Drake" or college == "Coe":
+    print("That is good")
+else:
+    print("HMMMM")
 
 
 

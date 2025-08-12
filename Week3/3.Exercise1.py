@@ -8,7 +8,7 @@
 
 list1 = [1,3,5,7,9]
 list2 = []
-index = 1
+index = 3
 
 if index >= 0:
     list2 = list1[:index] + list1[index+1:]

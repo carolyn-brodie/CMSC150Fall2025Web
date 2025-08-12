@@ -1,15 +1,16 @@
-x = 5
-print(x, "x")
+# x = 5
+# print(x, "x")
+# # print(x + 10)
 # x = x + 10
 # print(x)
 # x = 6.7
 # print(x + 100)
 # print(x)
 
-# print("Hi, how are you.")
-#
-# user_name = input("Please tell me your name: ")
-# print(f"It is nice to meet you {user_name}")
+print("Hi, how are you.")
+
+user_name = input("Please tell me your name: ")
+print(f"It is nice to meet you {user_name}")
 
 a = 5
 b = a
