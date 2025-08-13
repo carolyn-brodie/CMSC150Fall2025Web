@@ -10,4 +10,6 @@ print(the_list, alias_of_list, copy_of_list)
 the_list[0] = 100
 print(the_list, alias_of_list, copy_of_list)
 
+another_copy = the_list[:]
+
 
